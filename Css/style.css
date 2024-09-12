@@ -1,0 +1,102 @@
+li {
+        display: inline;
+        margin-right: 20px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fonte {
+    font-size: 25px;
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fonte_linha{
+    font-size: 30px;
+    color: black;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: auto;
+}
+
+.fonte_link{
+    font-size: 30px;
+    color: rgb(22, 186, 207);
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: auto;
+    padding: 50px;
+}
+
+ul.lista{
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #555;
+    list-style-type: disc;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px ;
+}
+
+/* Seção da imagem */
+.image-separa {
+    margin-right: 50px; /* Espaço entre a imagem e os tópicos */
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção de conteúdo com tópicos */
+.content-section {
+    max-width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+ul.topics {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    
+}
+
+ul.topics li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #000000;
+    
+}
